@@ -1,4 +1,4 @@
-# IoT-p3-app
+# IoT-p3-myapp
 
 ref
 - https://gitlab.com/nanuchi/argocd-app-config/-/tree/main/dev
