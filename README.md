@@ -7,5 +7,5 @@ ref
 - https://hub.docker.com/r/nanajanashia/argocd-app/tags
 
 
-application.yaml  (argo cd sync)  
-dev/app.yaml (deployment + service)  
+application.yaml (argo cd sync) needs to be a part of p3
+dev/app.yaml (deployment + service)
