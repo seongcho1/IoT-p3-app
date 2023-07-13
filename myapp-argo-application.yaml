@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/seongcho1/IoT-p3-app.git
+    repoURL: https://github.com/seongcho1/IoT-p3-myapp.git
     targetRevision: HEAD
     path: dev
   destination:
