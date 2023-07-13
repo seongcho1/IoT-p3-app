@@ -10,3 +10,4 @@ ref
 myapp-argo-application.yaml (argo cd sync) needs to be a part of p3  
 dev/myapp.yaml (deployment + service)  
 
+kubectl port-forward svc/myapp-svc -n dev 8888:8888
