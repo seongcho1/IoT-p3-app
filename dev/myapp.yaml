@@ -16,7 +16,7 @@ spec:
       containers:
       - name: myapp
         #image: nanajanashia/argocd-app:1.0 #1.0, 1.1, 1.2
-        image: wil42/playground:v2 #v1, v2
+        image: wil42/playground:v1 #v1, v2
         ports:
         - containerPort: 8888
 ---
