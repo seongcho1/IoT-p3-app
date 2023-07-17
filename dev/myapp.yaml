@@ -31,10 +31,10 @@ spec:
   - port: 8888
     targetPort: 8888
     protocol: TCP
-    #nodePort: 30080 #added=====working
+    nodePort: 30080 #added=====working
     #name: http
   selector:
     app: myapp
-  #type: NodePort #added=====working  
+  type: NodePort #added=====working  
   #url added =====working
   #https://stackoverflow.com/questions/76324359/problem-setting-up-an-ingress-traefik-to-be-able-to-reach-host-port-8888-with-k3
