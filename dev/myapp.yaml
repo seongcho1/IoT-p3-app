@@ -38,23 +38,3 @@ spec:
   #type: NodePort #added=====working  
   #url added =====working
   #https://stackoverflow.com/questions/76324359/problem-setting-up-an-ingress-traefik-to-be-able-to-reach-host-port-8888-with-k3
----
-apiVersion: networking.k8s.io/v1
-kind: Ingress
-metadata:
-  name: myapp-ingress
-  namespace: dev
-  annotations:
-    ingress.kubernetes.io/ssl-redirect: "false"
-spec:
-  rules:
-  - http:
-      paths:
-      - path: /
-        pathType: Prefix
-        backend:
-          service:
-            name: myapp-svc
-            namespace: dev
-            port:
-              number: 8888
