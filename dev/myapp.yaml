@@ -36,5 +36,5 @@ spec:
   selector:
     app: myapp
   type: NodePort #added=====working  
-  #url added =====working
+  #url added =====working with k3d cluster create my-cluster --api-port 6443 -p "8080:80@loadbalancer" -p "8888:30080@agent:0" --agents 1
   #https://stackoverflow.com/questions/76324359/problem-setting-up-an-ingress-traefik-to-be-able-to-reach-host-port-8888-with-k3
